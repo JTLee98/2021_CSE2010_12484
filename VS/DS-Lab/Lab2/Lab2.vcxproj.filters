@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LabHW1.c">
+    <ClCompile Include="source\sample.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

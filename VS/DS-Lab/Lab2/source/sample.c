@@ -26,13 +26,13 @@ int main()
 
 	printf("Before Sorting\n");
 	for (i = 0; i < SIZE; i++)
-		printf("%d", list[i]);
+		printf("%d ", list[i]);
 	printf("\n");
 
 	selectionSort(list, SIZE);
 	
 	printf("After Sorting\n");
 	for (i = 0; i < SIZE; i++)
-		printf("%d", list[i]);
+		printf("%d ", list[i]);
 	printf("\n");
 }
