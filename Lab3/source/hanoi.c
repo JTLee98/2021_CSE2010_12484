@@ -6,9 +6,9 @@
 
 void hanoi(int n, char src, char mid, char dest)
 {
-	static int stacklv = 0, count = 0; 
+	static int stacklv = 0, count = 0;
 	stacklv++;
-	
+
 	//hanoi recursion
 	if (n == 1)
 	{
@@ -17,9 +17,9 @@ void hanoi(int n, char src, char mid, char dest)
 	}
 	else if (n > 1)
 	{
-		hanoi(n - 1, src, dest, mid); 
+		hanoi(n - 1, src, dest, mid);
 		MOVE(n, src, dest);
-		count++; 
+		count++;
 		hanoi(n - 1, mid, src, dest);
 	}
 
@@ -31,7 +31,7 @@ void hanoi(int n, char src, char mid, char dest)
 		return;
 	}
 	// pop off stack
-	stacklv--; 
+	stacklv--;
 }
 
 
