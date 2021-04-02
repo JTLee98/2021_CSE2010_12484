@@ -1,3 +1,12 @@
+### user custom entries ###
+.misc/*
+*.pdf
+.vscode/*
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,c,c++,visualstudio,vs,vscode
@@ -47,6 +56,7 @@
 *.su
 *.idb
 *.pdb
+build/
 
 # Kernel Module Compile Results
 *.mod*
@@ -79,6 +89,24 @@ dkms.conf
 *.lai
 
 # Executables
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
+
+### CMake Patch ###
+# External projects
+*-prefix/
 
 ### VisualStudioCode ###
 .vscode/*
@@ -637,7 +665,9 @@ ScaffoldingReadMe.txt
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,c,c++,visualstudio,vs,vscode
+# End of https://www.toptal.com/developers/gitignore/api/windows,vscode,vs,visualstudiocode,visualstudio,c++,c,cmake
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
+/Lab5/week5_samplecode
+/Lab4/week4_sample_code
