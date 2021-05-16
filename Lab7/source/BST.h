@@ -15,7 +15,7 @@ struct Node
 
 using BSTenum = char;
 
-class BinTree
+class BST
 {
 private:
 	Node* m_root;
@@ -26,8 +26,8 @@ private:
 	void m_insert(Node*& parent);
 	void m_print(Node* parent) const;
 public:
-	BinTree();
-	~BinTree();
+	BST();
+	~BST();
 
 	void insert(int data);
 	void print(BSTenum order);

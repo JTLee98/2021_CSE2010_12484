@@ -2,7 +2,7 @@
 #include "BST.h"
 Node::Node()
 	:data(0), left(nullptr), right(nullptr) {}
-void BinTree::m_insert(Node*& parent)
+void BST::m_insert(Node*& parent)
 {
 	if (parent == nullptr)
 	{
@@ -17,7 +17,7 @@ void BinTree::m_insert(Node*& parent)
 		m_insert(parent->right);
 }
 
-void BinTree::m_print(Node* parent) const
+void BST::m_print(Node* parent) const
 {
 	if (parent == nullptr) return;
 	switch (m_order_mode)
@@ -43,21 +43,21 @@ void BinTree::m_print(Node* parent) const
 	}
 }
 
-BinTree::BinTree()
+BST::BST()
 	: m_root(nullptr), m_count(0), m_order_mode(0), p_data(0) {}
 
-BinTree::~BinTree()
+BST::~BST()
 {
 }
 
-void BinTree::insert(int data)
+void BST::insert(int data)
 {
 	p_data = data;
 	m_insert(m_root);
 	m_count++;
 }
 
-void BinTree::print(BSTenum order)
+void BST::print(BSTenum order)
 {
 	if (m_root == nullptr) return;
 	m_order_mode = order;

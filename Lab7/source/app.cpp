@@ -3,7 +3,7 @@
 
 int main()
 {
-	BinTree foo;
+	BST foo;
 
 	foo.insert(4);
 	foo.insert(2);
