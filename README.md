@@ -1,4 +1,4 @@
-## 2021_CSE4020_11272
+## 2021_CSE2010_12484
 
 Course repo for Hanyang-CSE2010 (Data Structures) \
 Taken in Spring of 2021 at HYU \
