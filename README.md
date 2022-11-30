@@ -1,7 +1,7 @@
 ## 2021_CSE4020_11272
 
-Course repo for Hanyang-CSE2010 (Data Structures) 
-Taken in Spring of 2021 at HYU
+Course repo for Hanyang-CSE2010 (Data Structures) \
+Taken in Spring of 2021 at HYU \
 Instructor: Prof. PARK, JONG-IL (https://mr.hanyang.ac.kr/ jipark@hanyang.ac.kr)
 
 * **Course outline**
